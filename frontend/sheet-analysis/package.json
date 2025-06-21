@@ -1,3 +1,4 @@
+"homepage":"https://teja-0504.github.io/xlsl-analytics",
 {
   "name": "sheet-analysis",
   "private": true,
@@ -6,7 +7,9 @@
  "scripts": {
   "start": "vite",
   "dev": "vite",
-  "build": "vite build"
+  "build": "vite build",
+   "predeploy":"npm run build",
+   "deploy":"gh-pages -d  build"
 }
   "dependencies": {
     "@react-three/drei": "^9.56.4",
